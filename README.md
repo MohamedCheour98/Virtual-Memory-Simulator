@@ -1,5 +1,7 @@
 # Virtual-Memory-Simulator
 
+**Virtual Memory** is a technique aiming to solve memory’s physical shortages by using the secondary memory so that an Operating System (OS) considers it as a part of the main memory. The main advantage of virtual memory is that an OS can load programs larger than its physical memory. It is a temporary memory that maps program addresses into RAM addresses. If no more space is available, these addresses will be mapped into the disk. 
+
 This simulator translates virtual memory addresses (like those that come from a process) to physical memory addresses (as managed by the operating system)
 
 Page replacement algorithms such as FIFO, LRU or OPT were implemented (depending on the user choice) in order to allow the user to decide on the physical memory size by choosing the number of frames desired to be in memory. 
